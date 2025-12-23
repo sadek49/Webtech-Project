@@ -1,0 +1,80 @@
+/* Center the content on the page */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.signup-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px; /* Adjust the form width as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+td {
+    padding: 5px;
+    vertical-align: top;
+}
+
+/* Input and textarea styling */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #386D44;
+    border-radius: 5px;
+    background-color: #DEDEDE;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #386D44;
+}
+
+/* Links styling */
+a {
+    text-decoration: none;
+    color: #ff0000ff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Radio button spacing */
+input[type="radio"] {
+    margin-right: 5px;
+}

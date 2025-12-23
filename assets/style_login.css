@@ -1,0 +1,54 @@
+
+        /* Center the content on the page */
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .login-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+        }
+        form {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px; /* Adjust the form width as needed */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+        }
+        td {
+            padding: 5px;
+        }
+        input[type="text"], input[type="password"], input[type="submit"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            background-color: #DEDEDE;
+            color: rgb(0, 0, 0);
+            border: 2px solid #386D44;
+;
+            cursor: pointer;
+            
+        }
+        input[type="submit"]:hover {
+            background-color: #386D44;
+        }
+        a {
+            text-decoration: none;
+            color: #ff0000ff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+ 
